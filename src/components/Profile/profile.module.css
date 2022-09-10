@@ -1,0 +1,64 @@
+.profile{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 70px 0px rgba(0, 0, 0, 0.75);
+    margin: 0 auto 20px;
+    height: 250px;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+.description{
+    margin-bottom: 20px;
+}
+.avatar{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(165, 165, 165, 0.8);
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 30px 0px rgb(156, 57, 0);
+}
+.name{
+font-weight: 900;
+}
+.location{
+    cursor: pointer;
+    transition: font-weight 250ms linear;
+}
+.location:hover,
+.location:focus{
+font-weight: 700;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+}
+.header_li{
+    font-size: 13px;
+    width: 80px;
+    background-color: rgba(165, 165, 165, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 3px rgba(156, 57, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 250ms linear, box-shadow 250ms linear;
+}
+.header_li:not(:last-child){
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header_li:hover,
+.header_li:focus{
+  background-color: rgba(196, 196, 196, 0.5);
+    box-shadow: 0 0 10px 7px rgba(156, 57, 0, 0.5);
+}
+.stats{
+    font-weight: 700;
+}
+.tag{
+    font-weight: 700;
+}

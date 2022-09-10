@@ -1,12 +1,46 @@
 .statusOnline,
 .statusOffline {
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin: 0 20px;
     border-radius: 50%;
     background-color: green;
 }
 .statusOffline{
     background-color: red;
+}
+.friend_list{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    margin: 0 auto 20px;
+
+
+    padding: 25px;
+    text-align: center;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 3px rgba(156, 57, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 250ms linear, box-shadow 250ms linear 100ms;
+}
+.item:hover{
+    background-color: rgba(145, 145, 145, 0.2);
+    box-shadow: 0 10px 20px 3px rgba(156, 57, 0, 0.5);
+}
+.item:last-child{
+    margin-bottom: 0;
 }
