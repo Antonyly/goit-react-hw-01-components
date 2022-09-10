@@ -1,6 +1,6 @@
 import React from 'react';
 // import propTypes from 'prop-types';
-import css from './TransactionHistory.module.css';
+import css from './transactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => (
     <table className={css.transaction_history}>
