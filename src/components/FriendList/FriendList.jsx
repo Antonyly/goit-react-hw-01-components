@@ -24,7 +24,7 @@ FriendList.propTypes = {
         avatar: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         isOnline: PropTypes.bool.isRequired,
-        key: PropTypes.number,
+        id: PropTypes.number.isRequired,
     }))
 }
 export default FriendList;
